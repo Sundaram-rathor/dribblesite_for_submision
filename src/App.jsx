@@ -16,21 +16,13 @@ import Footer from './components/footer/Footer.jsx'
 function App() {
 
   //api calling
- useEffect(() => {
-  const fetchData = async () => {
-      const data = await gettingData();
-      console.log("Fetched data:", data);
-  };
-
-  fetchData();
-}, []);
+ 
 
   return (
     <BrowserRouter >
     <Header/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        
         <Route path='/jobs' element={<Jobs/>}/>
         <Route path='/gopro' element={<Gopro/>}/>
         <Route path='/login' element={<Login/>}/>
