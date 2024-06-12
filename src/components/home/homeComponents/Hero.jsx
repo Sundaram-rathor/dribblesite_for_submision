@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 import Courousol from './Courousol'
@@ -24,7 +25,7 @@ function Hero() {
       
                   </div>
                   <div className='bg-[#0D0C22] text-lg py-4 px-4 rounded-full mt-5 text-white'>
-                      <button>Get Started</button>
+                     <Link to='/login'> <button className='bg-[#0D0C22] '>Get Started</button></Link>
                   </div>
             </div>
         </div>

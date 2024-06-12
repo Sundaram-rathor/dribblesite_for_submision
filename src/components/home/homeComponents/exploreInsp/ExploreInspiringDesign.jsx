@@ -1,11 +1,13 @@
 import React,{useEffect,useState} from 'react'
 import ImgCard from './ImgCard'
-import { gettingData } from '../../../../utils/data'
+import { gettingData } from '../../../../utils/data.js'
+
+
 
 
 function ExploreInspiringDesign() {
 
-
+ 
   const[data , setData] = useState([])
     useEffect(()=>{
         const fetchData= async ()=>{
@@ -32,10 +34,14 @@ function ExploreInspiringDesign() {
       <div className='flex justify-center items-center'>
         <div className='grid grid-cols-4  gap-10 px-4 py-5 '>
             {data.map((item)=>{
-               return  <ImgCard info={item} key={item.id}/>
+               return  <ImgCard info={item} key={item.id} />
             })}
+            </div>
+
+
+
             
-        </div>
+        
         
         </div>
      </div>

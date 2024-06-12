@@ -18,7 +18,7 @@ function Carousel() {
         <div className="flex gap-4">
           {imgArray.map((item, index) => (
             <div key={index} className="w-[17vw] h-[340px]">
-              <img src={item} alt={`Profile ${index + 1}`} className="w-full h-full object-cover rounded-lg shadow-md" />
+              <img src={item} alt={`Profile ${index + 1}`} className="w-full h-full object-cover rounded-full shadow-md" />
             </div>
           ))}
         </div>

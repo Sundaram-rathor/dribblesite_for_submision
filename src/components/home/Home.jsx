@@ -5,7 +5,7 @@ import Block from './homeComponents/Block'
 
 function Home() {
   return (
-    <div className='h-auto w-full bg-red-300'>
+    <div className='h-auto w-full '>
        <Hero/>
        <ExploreInspiringDesign/>
        <Block/>
