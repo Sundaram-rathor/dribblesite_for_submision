@@ -3,6 +3,8 @@
 
 ## Overview
 
+Note: This website is not responsive only suitable for pc.
+
 This repository contains the frontend part of the internship project developed using React.js and Tailwind CSS. The project aims to provide an inspiring design exploration experience by displaying various design images and allowing users to view details in a full-page overlay.
 
 ## Table of Contents
